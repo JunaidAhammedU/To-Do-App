@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color: rgb(17 27 38);
+    font-family: sans-serif;
+}
+/* ------------------- */
+h1{
+    color: #7c7b7b;
+}
+.Toto-container{
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+/* ------------------- */
+
+.input-section{
+    background-color:rgb(32 45 60);
+    border-radius: 10px;
+    padding: 18px;
+    color: #7c7b7b;
+    box-shadow: 0 3px 6px #00000066;
+    height: 142px;
+
+}
+/*  */
+.input-section input{
+    border: 1px solid #7c7b7b;
+    background-color: rgb(32 45 60);
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    outline: none;
+    color: #b2afaf;
+    font-size: 15px;
+
+}
+
+input::placeholder{
+    color: #7c7b7b;
+    font-size: 15px;
+}
+
+.fa-plus{
+    float: right;
+    margin-top: 10px;
+}
+
+.fa-plus:hover{
+    color: #c3c3c3;
+}
+/* ------------------- */
+
+ul{
+   text-align: left;
+   padding: 0;
+}
+
+ul li{
+    display: flex;
+    list-style: none;
+    text-align: left;
+    background-color:rgb(32 45 60);
+    border-radius: 5px;
+    color: #7c7b7b;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 6px #00000066;
+}
+/* ------------------- */
+.fa-solid{
+    text-align: right;
+    flex: 1;
+}
